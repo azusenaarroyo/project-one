@@ -13,9 +13,9 @@ A shared repository for first projects
 
 ## This week everyone should
 * Get familiar with data
-* Database and cleaning process- Aaron Hall, Azusena Arroyo
-* Someone should looke into machine learning model- Daren Garcia
-* Relevant data and feature engineering Azusena Arroyo, Charla Garcia
+* Database and cleaning process - Aaron Hall, Azusena Arroyo
+* Someone should look into machine learning model - Daren Garcia
+* Relevant data and feature engineering - Azusena Arroyo, Charla Garcia
 
 ## Future Steps
 * Use SQL alchmey to pull data into database
