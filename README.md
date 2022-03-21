@@ -2,16 +2,16 @@
 A shared repository for first projects
 
 ## Objective
-* Improving public safety by predicting crime in certain locations.
+* Improving public safety by predicting crime in certain locations in the Austin area. We selected this topic due to these reasons:
 
-## Benefits
+### Benefits
 * Reducing costs of reports and case investigations
 * Support community health and service efforts
 * Reducing crime
 * Allocating law enforcement in different areas
 * Determining predictors of crime
 
-## This week everyone should
+## This week everyone should:
 * Get familiar with data
 * Database and cleaning process - Aaron Hall, Azusena Arroyo
   * Exported Annual Crime Reports and Crime Data data from https://data.austintexas.gov/
@@ -29,13 +29,13 @@ A shared repository for first projects
 * Relevant data and feature engineering - Azusena Arroyo, Charla Garcia
 
 ## Future Steps
-* Use SQL alchemy to pull data into the database
+* Use SQLAlchemy to pull data into the database
 * Once you clean data through pandas, push data back into the database: Data cleaning will include: Parsing date by date of the month and/or season, other suggestions welcome. 
 * Assumption: We will assume that the incident happened within 2 weeks of the reporting date.
   * Using the Crime Reports data, we have the exact date and time of the incident - so by changing to this dataset, we don't need to make this assumption.
    
-* Machine learning model will be a classification or clustering model - Multivariate linear regression for the types of crime type. Can also use random forest.
+* Machine learning model will be a classification model - Multinomial logistic regression for the types of crime type. Can also use random forest.
 * Look at predictions
-* Analyze predicition
+* Analyze predictions
 
 
