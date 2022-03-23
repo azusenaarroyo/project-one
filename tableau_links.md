@@ -1,4 +1,4 @@
-# Tableau Visualizatoins
+# Tableau Visualizations
 
 [Crime by Zip Code](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimebyZipCode#2)
 
