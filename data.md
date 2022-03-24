@@ -23,7 +23,8 @@
 *  Joined the CensusTract table to the austincrimereports_filtered table,grouped by the Census track data and summed the crimes by type and selected all of that into a    new table name crimesummarybycensustract
 *  We can discuss if this is data to create visualizations for or use in a machine learning model.
  * query used:
- * SELECT  
+ 
+ SELECT  
 	ct.the_geom, 
 	ct."CensusTract", 
 	ct."AREA_SQMI",
