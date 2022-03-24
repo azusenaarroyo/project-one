@@ -17,3 +17,55 @@
 * Pared down Socioeconomic Status of CDC Social Vulnerability Index to have columns we are interested in.
 * Parsed the Location colum and created a new CensusTract column that matches CensusTract on Austin Crime Data.
 * Imported to new CensusTract table in PostgreSQL austincrimes db.
+
+
+## NEW PostgreSQL table
+*  Joined the CensusTract table to the austincrimereports_filtered table,grouped by the Census track data and summed the crimes by type and selected all of that into a    new table name crimesummarybycensustract
+*  We can discuss if this is data to create visualizations for or use in a machine learning model.
+ * query used:
+ * SELECT  
+	ct.the_geom, 
+	ct."CensusTract", 
+	ct."AREA_SQMI",
+	ct."EstimatedTotalPopulation", 
+    ct."EstimatedPersonsBelowPoverty",
+    ct."EstimatedPctPersonsBelowPoverty",
+    ct."FlagPctPersonsInPovertyIn90thPercentile",
+    ct."EstimatedUnemployed",
+    ct."UnemploymentRateEstimate",
+    ct."FlagPctCivilianUnemployedIn90thPercentile",
+    ct."PctPersonsNoHighSchoolDiploma",
+    ct."FlagPctPersonsNoHighSchoolDiplomaIn90thPercentile",
+    ct."PerCapitaIncomeEstimate",
+    ct."FlagPerCapitaIncomeIn90thPercentile",
+    ct."SumOfFlagsForSocioeconomicStatus",
+	SUM(CASE WHEN acr."CategoryDescription" = 'Burglary' THEN 1 Else 0 END) as "BurglaryCount",
+	SUM(CASE WHEN acr."CategoryDescription" = 'Murder' THEN 1 Else 0 END) as "MurderCount",
+	SUM(CASE WHEN acr."CategoryDescription" = 'Rape' THEN 1 Else 0 END) as "RapeCount",
+	SUM(CASE WHEN acr."CategoryDescription" = 'Auto Theft' THEN 1 Else 0 END) as "AutoTheftCount",
+	SUM(CASE WHEN acr."CategoryDescription" = 'Aggravated Assault' THEN 1 Else 0 END) as "AggravatedAssaultCount",
+	SUM(CASE WHEN acr."CategoryDescription" = 'Theft' THEN 1 Else 0 END) as "TheftCount",
+	SUM(CASE WHEN acr."CategoryDescription" = 'Robbery' THEN 1 Else 0 END) as "BRobberyCount"
+	INTO CrimeSummaryByCensusTract
+	FROM public."CensusTract" ct
+LEFT JOIN public.austincrimereports_filtered acr on ct."CensusTract" = acr."CensusTract"
+
+GROUP BY 	ct.the_geom, 
+	ct."CensusTract", 
+	ct."AREA_SQMI",
+	ct."EstimatedTotalPopulation", 
+	ct."EstimatedPctPersonsBelowPoverty",
+    ct."EstimatedTotalPopulation",
+    ct."EstimatedPersonsBelowPoverty",
+    ct."EstimatedPctPersonsBelowPoverty",
+    ct."FlagPctPersonsInPovertyIn90thPercentile",
+    ct."EstimatedUnemployed",
+    ct."UnemploymentRateEstimate",
+    ct."FlagPctCivilianUnemployedIn90thPercentile",
+    ct."PctPersonsNoHighSchoolDiploma",
+    ct."FlagPctPersonsNoHighSchoolDiplomaIn90thPercentile",
+    ct."PerCapitaIncomeEstimate",
+    ct."FlagPerCapitaIncomeIn90thPercentile",
+    ct."SumOfFlagsForSocioeconomicStatus"
+	
+order by ct."CensusTract"
