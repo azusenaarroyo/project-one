@@ -1,10 +1,10 @@
 # Week 2
 
 
-Google Slides: Azusena
-Dashboard: Azusena & Charla
-Tableau Viz: Charla
-Data & Machine Learning: Aaron & Daren
+- Google Slides: Azusena
+- Dashboard: Azusena & Charla
+- Tableau Viz: Charla
+- Data & Machine Learning: Aaron & Daren
 
 ### Google Slides 
 - selected topic
