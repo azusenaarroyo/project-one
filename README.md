@@ -28,6 +28,8 @@ A shared repository for first projects
 * Someone should look into machine learning model - Daren Garcia
 * Relevant data and feature engineering - Azusena Arroyo, Charla Garcia
 
+## Data Exploration Phase
+
 ## Future Steps
 * Use SQLAlchemy to pull data into the database
 * Once you clean data through pandas, push data back into the database: Data cleaning will include: Parsing date by date of the month and/or season, other suggestions welcome. 
@@ -41,6 +43,9 @@ A shared repository for first projects
 ## Dashboard 
 The dashboard includes the following technologies: 
 * HTML
-* 
+* Python Libraries: matplotlib, 
+* Javascript Libraries: Leaflet, 
+* Tableau interative visualizations 
+
 [Google Slides Presentation
 ](https://docs.google.com/presentation/d/1EN3ammW-Wlooi3852pIWSFRROaggzyB0reHSVfxEoX8/edit#slide=id.g11f323755e1_1_2810)
