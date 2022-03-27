@@ -45,7 +45,12 @@ The dashboard includes the following technologies:
 * HTML
 * Python Libraries: matplotlib, 
 * Javascript Libraries: Leaflet, 
-* Tableau interative visualizations 
+* Tableau interactive visualizations 
+
+We would like to include the following interactive elements to view:
+* types of crime by zipcode
+* types of crime by day of the week
+* types of crime by time of day
 
 [Google Slides Presentation
 ](https://docs.google.com/presentation/d/1EN3ammW-Wlooi3852pIWSFRROaggzyB0reHSVfxEoX8/edit#slide=id.g11f323755e1_1_2810)
