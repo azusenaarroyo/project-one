@@ -38,5 +38,9 @@ A shared repository for first projects
 * Look at predictions
 * Analyze predictions
 
+## Dashboard 
+The dashboard includes the following technologies: 
+* HTML
+* 
 [Google Slides Presentation
 ](https://docs.google.com/presentation/d/1EN3ammW-Wlooi3852pIWSFRROaggzyB0reHSVfxEoX8/edit#slide=id.g11f323755e1_1_2810)
