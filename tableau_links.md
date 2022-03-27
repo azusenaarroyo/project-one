@@ -18,6 +18,6 @@
 
 [Family Violence Map](https://public.tableau.com/authoring/AustinCrime_16479758165290/FamilyViolenceMap#1)
 
-[Crime by Census Tract] (https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimeMapbyCensusTract#1)
+[Crime by Census Tract](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimeMapbyCensusTract#1)
 
 [Crime by Zip Code and Average Income](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimeMapbyzipcodeandaverageincome#1)
