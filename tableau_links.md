@@ -13,3 +13,7 @@
 [Cleared per Zip Code](https://public.tableau.com/authoring/AustinCrime_16479758165290/Clearedperzipcode#2)
 
 [Crime Map by Zip Code](https://public.tableau.com/app/profile/charla.garcia/viz/AustinCrime_16479758165290/CrimeMapbyZipCodespecificlocations?publish=yes)
+
+[Crime map by Location Type](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimeMapbyLocationType#1)
+
+[Family Violence Map](https://public.tableau.com/authoring/AustinCrime_16479758165290/FamilyViolenceMap#1)
