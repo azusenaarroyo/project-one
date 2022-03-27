@@ -3,11 +3,11 @@
 
 - Google Slides: Azusena
 - Dashboard: Azusena & Charla
-- [x] Tableau Viz: Charla
+- Tableau Viz: Charla
 - Data & Machine Learning: Aaron & Daren
 
 ### Google Slides 
-- [ ] selected topic
+- [x] selected topic
 - [ ] reason topic was selected
 - [ ] description of data source
 - [ ] questions we hope to answer
