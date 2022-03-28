@@ -22,4 +22,18 @@
 
 [Crime Map by Zip Code and Average Income](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimeMapbyzipcodeandaverageincome#1)
 
-[Crime chart by Census Tract](https://public.tableau.com/app/profile/charla.garcia/viz/AustinCrime_16479758165290/CrimebyCensusTract?publish=yes)
+[Crime by Census Tract](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimebyCensusTract#1)
+
+[Crime chart by Census Tract](https://public.tableau.com/authoring/AustinCrime_16479758165290/TypeofCrimebyCensusTract#1)
+
+[Type of Crime by Census Tract](https://public.tableau.com/authoring/AustinCrime_16479758165290/TypeofCrimebyCensusTract#1)
+
+## Dashboards
+
+[Crime by Month & Quarters](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimebyMonthQuarters#1)
+
+[Crime by Zip Codes](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimebyZipCodes#1)
+
+[Domestic Violence & Average Income per Household](https://public.tableau.com/authoring/AustinCrime_16479758165290/DomesticViolenceandAverageIncomeperHousehold#1)
+
+[Crimes by Census Tract](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimesbyCensusTract#1)
