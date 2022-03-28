@@ -29,6 +29,14 @@ A shared repository for first projects
 * Relevant data and feature engineering - Azusena Arroyo, Charla Garcia
 
 ## Data Exploration Phase
+During the data exploration phase we looked into: 
+* count of crime types and identified theft as being the crime with the highest occurence followed by burglary
+* count of location type where crimes occured and identified home/residence as the location of most crimes followed by parking lots/garages
+* count of zipcodes in total which totalled to 50
+* count of council districts which totalled to 10
+* count of ADP sector which totalled to 12
+* count of ADP district which totalled to 15
+* count of crime type (NIBRS UCR) totals to 6
 
 ## Future Steps
 * Use SQLAlchemy to pull data into the database
