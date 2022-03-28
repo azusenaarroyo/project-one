@@ -38,6 +38,6 @@
 - [x] includes at least one connection string (SQLAlchemy or PyMongo)
 
 ### Dashboard
-- [ ] Storyboard on Google Slides
+- [x] Storyboard on Google Slides
 - [ ] Description of tools that will be used to create final dashboard
-- [ ] Description of interactive elements
+- [x] Description of interactive elements
