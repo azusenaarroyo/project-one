@@ -28,6 +28,10 @@
 
 [Type of Crime by Census Tract](https://public.tableau.com/authoring/AustinCrime_16479758165290/TypeofCrimebyCensusTract#1)
 
+[Crime by Hour of the Day](https://public.tableau.com/app/profile/charla.garcia/viz/CrimesbyHourofDay/CrimesbyHourofDay)
+
+[Crime by Day of the Week](https://public.tableau.com/app/profile/charla.garcia/viz/CrimebyDayoftheWeek/CrimebyDayoftheWeek)
+
 ## Dashboards
 
 [Crime by Month & Quarters](https://public.tableau.com/authoring/AustinCrime_16479758165290/CrimebyMonthQuarters#1)
