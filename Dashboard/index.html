@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Custom styles for this template -->
-<link href="index.css" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Custom styles for this template -->
+  <link href="index.css" rel="stylesheet">
+  </head>
 <body class="d-flex h-100 text-center text-white bg-dark">
     
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mr-auto">
       <div>
         <nav class="nav nav-masthead justify-content-center float-md-end">
@@ -23,44 +22,77 @@
   
     <main class="px-3">
       <h1 style="font-size:60px">Austin Crime Analysis</h1>
-      <p class="lead">We want to understand how crime impacts the community and if we can identify predictors of crime in Austin. Moreover, our machine learning model will attempt to predict what type of crime occured.  </p>
+      <p class="lead"; style="font-size: larger;"> We are interested in learning about the 
+        crime profile in the City of Austin and if we can identify predictors of crime. Moreover, our machine learning model will attempt to predict what type of crime 
+        will occur. We collected data from the Austin Police Department (APD) from the years 2003 to present. It contains a record of incidents that the APD 
+        responded to and wrote a report on.  </p>
       <p class="lead">
       </p>
     </main>
-    <div>
-      <h2>Crime Categories</h2>
-      <p> The crime data is categorized into 6 categories based off the 
-        National Incident-Based Reporting System (NIBRS). The NIBRS is an incident-based reporting system used by law enforcement agencies 
-        in the United States for collecting and reporting data on crimes. Of all crimes reported the highest offense per incident was documented in
-        one of the six crime categories below. </p>
-      <ul>
-        <li>Theft: The unlawful taking, carrying, leading, or riding away of property
-          from the possession, or constructive possession, of another person. </li>
-        <li>Burglary: The unlawful entry into a building or other structure with the
-          intent to commit a felony or a theft. </li>
-        <li>Auto Theft: The theft of a motor vehicle</li>
-        <li>Aggravated Assault: An unlawful attack by one person upon another wherein the offender
+    <!-- Create table of crime types and definition-->
+    <h2>Crime Categories</h2>
+    <p> The crime data is categorized into 6 categories based off the 
+      National Incident-Based Reporting System (NIBRS). The NIBRS is an incident-based reporting system used by law enforcement agencies 
+      in the United States for collecting and reporting data on crimes. Of all crimes reported the highest offense per incident was documented in
+      one of the six crime categories below. </p>
+    <style>
+      th, td {
+        border: 1px solid rgb(77, 75, 75);
+        border-radius: 10px;
+        background-color: #dddada;
+      }
+      </style>
+    <table style="width:100%";>
+      <tr>
+        <td>Theft</td>
+        <td>The unlawful taking, carrying, leading, or riding away of property
+          from the possession, or constructive possession, of another person.</td> 
+      </tr>
+      <tr>
+        <td> Burglary</td>
+        <td>The unlawful entry into a building or other structure with the
+          intent to commit a felony or a theft. </td>
+      </tr>
+      <tr>
+        <td>Auto Theft</td>
+        <td> The theft of a motor vehicle</td>
+      </tr>
+      <tr>
+        <td>Aggravated Assault</td>
+        <td>An unlawful attack by one person upon another wherein the offender
           uses a weapon or displays it in a threatening manner, or the victim suffers obvious severe or
           aggravated bodily injury involving apparent broken bones, loss of teeth, possible internal
           injury, severe laceration, or loss of consciousness. This also includes assault with disease (as
           in cases when the offender is aware that he/she is infected with a deadly disease and
-          deliberately attempts to inflict the disease by biting, spitting, etc.). </li>
-        <li>Robbery: The taking, or attempting to take, anything of value under confrontational
+          deliberately attempts to inflict the disease by biting, spitting, etc.)</td>
+      </tr>
+      <tr>
+        <td>Robbery</td>
+        <td>The taking, or attempting to take, anything of value under confrontational
           circumstances from the control, custody, or care of another person by force or threat of force
-          or violence and/or by putting the victim in fear of immediate harm. </li>
-        <li>Murder: The willful (nonnegligent) killing of one human
-          being by another</li>
-      </ul>
+          or violence and/or by putting the victim in fear of immediate harm. </td>
+      </tr>
+      <tr>
+        <td>Rape</td>
+        <td>The carnal knowledge of a person, forcibly and/or
+          against that person’s will or not forcibly or against the person’s will in instances where the
+          victim is incapable of giving consent because of his/her temporary or permanent mental or
+          physical incapacity</td>
+      </tr>
+      <tr>
+        <td>Murder</td>
+        <td>The willful (nonnegligent) killing of one human
+          being by another</td>
+      </tr>
+    </table>
+    <div>
+
     </div>
-  
     <footer class="mt-auto text-white-50">
-      <!-- <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+       <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
     </footer>
   </div>
   
-  
-      
-    
   
   </body>
 </html>
