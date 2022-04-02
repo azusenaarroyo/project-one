@@ -2,10 +2,10 @@
 
 ## Presentation
 - tells a story about:
-  - [ ] selected topic
-  - [ ] reason why top was selected
-  - [ ] description of source of data
-  - [ ] questions we hope to answer with the data
+  - [x] selected topic
+  - [x] reason why top was selected
+  - [x] description of source of data
+  - [x] questions we hope to answer with the data
   - [ ] description of the data exploration phase of project
   - [ ] description of the analysis phase of the project
   - [ ] technologies, languages, tools, and algorithms used throughout project
@@ -17,7 +17,7 @@
   - [ ] all code necessary to perform exploratory analysis
   - [x] most code necessary to perform machine learning portion
 - README.md includes:
-  - [ ] description of communication protocols REMOVED
+  - [x] description of communication protocols REMOVED
   - [ ] cohesive, structured outline of project (may include images, but easy to follow and digest)
   - [ ] link to good slides draft presentation
   - [ ] descriptions and explanations required in all other project deliverables should also be in readme as part of outline unless otherwise noted
@@ -43,4 +43,4 @@
 - It includes:
   - [ ] images from initial analysis
   - [ ] data (images or report) from machine learning task
-  - [ ] at least one interactive element
+  - [x] at least one interactive element
