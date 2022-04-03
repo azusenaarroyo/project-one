@@ -16,6 +16,10 @@ We retrieved our datasets from the City of Austin’s [open data portal](https:/
 * [Crime Reports](https://data.austintexas.gov/Public-Safety/Crime-Reports/fdj4-gpfu): This dataset contains a record of incidents that the APD responded to and wrote a report on from the years 2003 to present. If there were multiple offenses that occurred in one incident, only the highest offense was recorded.
 * [Socioeconomic Status of CDC Social Vulnerability Index](https://data.austintexas.gov/Health-and-Community-Services/Socioeconomic-Status-of-CDC-Social-Vulnerability-I/jnp3-n7ij): This dataset is from the Social Vulnerability Index (SVI) which was created to help public health officials identify communities that will most likely need support during a hazardous event. In addition, the SVI indicates the vulnerability of every U.S Census tract based off of 15 social factors including unemployment, minority status, and disability. Only the socioeconomic status features are represented in the dataset and are from the years 2014, 2016, and 2018. 
 
+Below are the features of both datasets that we inner joined on the Census Tract feature
+![ERD_AustinCrime](https://user-images.githubusercontent.com/91927712/161450234-f68c4138-998f-4401-afa4-c9e1517fa8f3.png)
+
+
 ## This week everyone should:
 * Get familiar with data
 * Database and cleaning process - Aaron Hall, Azusena Arroyo
