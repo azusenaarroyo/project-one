@@ -1,7 +1,14 @@
 # Austin Crime Analysis
 
-## Objective
-* Improving public safety by predicting crime in certain locations in the Austin area. We selected this topic due to these reasons:
+## Why Crime?
+Austin, TX is one of the fastest growing major cities in Texas and we were interested in learning about it's crime profile and if there was a way to predict crime in Austin. In addition, we were interested in learning of any trends that could help give direction to community health and service efforts to improve public safety.
+
+## Questions we hope to answer
+* Where does crime occur the most?
+* What types of crime occur the most?
+* What times of the day or the month does crime occur?
+* Are there predictors of crime and if so, what are some of those predictors?
+* Can socioeconomic profiles by location help predict crime?
 
 ### Benefits
 * Reducing costs of reports and case investigations
