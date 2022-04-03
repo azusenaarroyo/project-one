@@ -1,5 +1,4 @@
-# project-one
-A shared repository for first projects
+# Austin Crime Analysis
 
 ## Objective
 * Improving public safety by predicting crime in certain locations in the Austin area. We selected this topic due to these reasons:
@@ -10,6 +9,12 @@ A shared repository for first projects
 * Reducing crime
 * Allocating law enforcement in different areas
 * Determining predictors of crime
+
+## Data Sources and Description
+We retrieved our datasets from the City of Austin’s [open data portal](https://data.austintexas.gov/). We worked with the two following data sets:
+
+* [Crime Reports](https://data.austintexas.gov/Public-Safety/Crime-Reports/fdj4-gpfu): This dataset contains a record of incidents that the APD responded to and wrote a report on from the years 2003 to present. If there were multiple offenses that occurred in one incident, only the highest offense was recorded.
+* [Socioeconomic Status of CDC Social Vulnerability Index](https://data.austintexas.gov/Health-and-Community-Services/Socioeconomic-Status-of-CDC-Social-Vulnerability-I/jnp3-n7ij): This dataset is from the Social Vulnerability Index (SVI) which was created to help public health officials identify communities that will most likely need support during a hazardous event. In addition, the SVI indicates the vulnerability of every U.S Census tract based off of 15 social factors including unemployment, minority status, and disability. Only the socioeconomic status features are represented in the dataset and are from the years 2014, 2016, and 2018. 
 
 ## This week everyone should:
 * Get familiar with data
@@ -36,7 +41,7 @@ During the data exploration phase we looked into:
 * count of council districts which totalled to 10
 * count of ADP sector which totalled to 12
 * count of ADP district which totalled to 15
-* count of crime type (NIBRS UCR) totals to 6
+* count of crimeazusenaarroyo type (NIBRS UCR) totals to 6
 
 ## Future Steps
 * Use SQLAlchemy to pull data into the database
