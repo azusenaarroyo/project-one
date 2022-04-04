@@ -54,6 +54,46 @@ During the data exploration phase we looked into:
 * count of ADP district which totalled to 15
 * count of crimeazusenaarroyo type (NIBRS UCR) totals to 6
 
+## Machine Learning Model
+v=Machine Learning
+
+Description of data preprocessing
+
+We began with a very large dataset of 2.4 million rows of crime reports. The first step was to clean out any reports that: 1. didn't result in an actual crime report, 2. Was not a crime that fell into our criteria which were
+crimes that were coded by the FBI as part of its Uniform Crime Reporting program. Using this code and the code descriptions helped group the crimes of our study into 7 types of crime. Burglary, Theft, Auto theft, Aggravated Assualt,
+Rape, Murder, and Robbery. After this filtering, we were left with approximatiely 260,0000 rows of crime data to use for our analysis.
+We also 
+
+
+
+
+Description of feature engineering and the feature selection, including their decision making process
+
+To help us predict the type of crime, we combine features from our AustinCrime dataset that record details about the crime committed, such as the occurred time, time of week, hour, and census tract. Census tracts were used to join this data along with socioeconomic features, such as unemployment rates, per capita income, and estimates of people below the poverty line. Since these are directly tied to the census tract, we decided that it would be best to include these in our machine learning model since they can be very good predictors in determining what type of crime is committed. 
+
+
+Description of how data was split into training and testing sets
+
+Seventy-five percent of our data was allocated towards training, while the remaining twenty-five percent was allocated for testing. 
+
+
+Explanation of model choice, including limitations and benefits
+
+Our initial model choice was using a multinomial logistic regression model, given that our target, CategoryDescription, is analogous to crime type. This model had the benefit of fitting our data into a target variable that consists of categorical data rather than quantitative. However, a limitation was that our model's classification report suggested that this type of model was not the best fit for our data, since it can be that location features, such as the census tract, were impairing the accuracy of our model.
+
+
+Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables
+
+As a result, we changed our model to a random forest classifier model. This fits a number of decision tree classifiers on various sub-samples of our dataset and uses averaging to the improve the predictive accuracy of the model, as well as regulating over-fitting of the model. 
+
+Description of how they have trained the model thus far and any additional training that will take place
+
+So far, our random forest is using 1000 estimators
+
+Description of current accuracy score
+
+additionally, the model obviously addresses the question or problem the team is solving
+
 ## Future Steps
 * Use SQLAlchemy to pull data into the database
 * Once you clean data through pandas, push data back into the database: Data cleaning will include: Parsing date by date of the month and/or season, other suggestions welcome. 
