@@ -10,13 +10,6 @@ Austin, TX is one of the fastest growing major cities in Texas and we were inter
 * Are there predictors of crime and if so, what are some of those predictors?
 * Can socioeconomic profiles by location help predict crime?
 
-### Benefits
-* Reducing costs of reports and case investigations
-* Support community health and service efforts
-* Reducing crime
-* Allocating law enforcement in different areas
-* Determining predictors of crime
-
 ## Data Sources and Description
 We retrieved our datasets from the City of Austin’s [open data portal](https://data.austintexas.gov/). We worked with the two following data sets:
 
