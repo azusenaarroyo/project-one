@@ -7,6 +7,24 @@
   
   <!-- Custom styles for this template -->
   <link href="index.css" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
   </head>
 <body class="d-flex h-100 text-center text-white bg-dark">
     
@@ -85,6 +103,27 @@
           being by another</td>
       </tr>
     </table>
+    <div>
+      <h1>Initial Analysis</h1>
+      <p>During our initial analysis we exported our data sets from the City of Austin Open Data Portal.
+        Then, we loaded and filtered our raw data into Postgres database hosted by AWS. Next, we used Psycopg2, a PostgreSQL database adapter for Python, to connect to Postgres database in Jupyter Notebook
+        created a Pandas dataframe of Crime Data to use for our model using Pandas.io.sql.read_sql method.
+
+        <p>Data cleaning involved dropping columns, correcting data types, removing rows with bad data and columns with NULL values in key columns, binning longitude and latitude values so they could be used to find areas of more crime,
+        separating date into days, months, and years and putting time into the hour the crime occurred, and creating a new column, Day of the Week. </p>
+        <p>Following our data cleaning, we counted the total crime types. </p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="pngs/drop_columns.png" alt="drop coolumns" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="pngs/drop_null.png" alt="drop null" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="pngs/crimetype_count.png" alt="crime count" style="width:100%">
+      </div>
+    </div>
     <footer class="mt-auto text-white-50">
        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
     </footer>
