@@ -21,17 +21,17 @@
   - [ ] includes speaker notes, flashcards, or a video of the presentation rehearsal
 
 ## GitHub (10 pts)
-- [ ] all code in main branch is production-ready
-- [ ] all code is clean, commented, easy to read, and adheres to a coding standard
+- [X] all code in main branch is production-ready
+- [X] all code is clean, commented, easy to read, and adheres to a coding standard
 
 - Main branch includes:
-  - [ ] all code necessary to perform exploratory analysis
-  - [ ] all code necessary to perform machine learning portion
-  - [ ] any images that have been created (at least 3)
+  - [X] all code necessary to perform exploratory analysis
+  - [X] all code necessary to perform machine learning portion
+  - [X] any images that have been created (at least 3)
   - [ ] requirements.txt file
  
 - README.md includes:
-  - [ ] cohesive, structured outline of project (may include images, but easy to follow and digest)
+  - [X] cohesive, structured outline of project (may include images, but easy to follow and digest)
   - [ ] link to dashboard (or link to video of dashboard demonstration)
   - [x] link to google slides presentation
   
@@ -62,7 +62,7 @@
 ## Dashboard (15 pts)
 - Dashboard presents a story that is logical and easy to follow for someone unfamiliar with the topic.  
 - It includes:
-  - [ ] images from initial analysis
-  - [ ] data (images or report) from machine learning task
-  - [ ] at least one interactive element
-  - [ ] either dashboard is publised, or submission includes a screen capture video of it in action
+  - [X] images from initial analysis
+  - [X] data (images or report) from machine learning task
+  - [X] at least one interactive element
+  - [ ] either dashboard is publisHed, or submission includes a screen capture video of it in action
