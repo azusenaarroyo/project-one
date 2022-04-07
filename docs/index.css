@@ -20,6 +20,7 @@ body {
   text-shadow: 0 .05rem .1rem rgba(5, 5, 5, 0.5);
   box-shadow: inset 0 0 5rem rgba(170, 166, 166, 0.5);
   text-align: center;
+  margin:auto
 }
 
 .cover-container {
@@ -41,7 +42,7 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(0, 0, 0, 0.25);
+  border-bottom-color: rgba(14, 11, 173, 0.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
