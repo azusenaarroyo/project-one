@@ -20,10 +20,7 @@ We retrieved our datasets from the City of Austin’s [open data portal](https:/
 Below are the features of both datasets that we inner joined on the Census Tract feature
 ![ERD_AustinCrime](https://user-images.githubusercontent.com/91927712/161450234-f68c4138-998f-4401-afa4-c9e1517fa8f3.png)
 
-
-## This week everyone should:
-* Get familiar with data
-* Database and cleaning process - Aaron Hall, Azusena Arroyo
+## Preprocessing & Data Exploration Phase
   * Exported Annual Crime Reports and Crime Data data from https://data.austintexas.gov/
   * Loaded raw data into Postgres database hosted by AWS
   * Compared Crime Data to Crime Reports data in Postgres - Filtered some data in Postgres
@@ -31,14 +28,11 @@ Below are the features of both datasets that we inner joined on the Census Tract
   * created a Pandas dataframe of Crime Data to use for our model using Pandas.io.sql.read_sql method
   * Data cleaning involved dropping columns,'ID','GOHighestOffDesc','Location', 'ClearanceDate', 'Clearance', etc...(more to add here)
   * Converting columns to integers or floats, zipcode, Longitude, Latitude
-  * removing rows with bad data - for example, one crime, according to its coordinates, took place in the Atlantic Ocean, or columns with NULL values in key columns
-  * binning longitude and latitude values so they could be used to find areas of more crime
-  * separating date into days, months, and years and putting time into the hour the crime occurred. 
-  * creating a new column, Day of the Week
-* Someone should look into machine learning model - Daren Garcia
-* Relevant data and feature engineering - Azusena Arroyo, Charla Garcia
+  * Removing rows with bad data - for example, one crime, according to its coordinates, took place in the Atlantic Ocean, or columns with NULL values in   key columns
+  * Binning longitude and latitude values so they could be used to find areas of more crime
+  * Separating date into days, months, and years and putting time into the hour the crime occurred. 
+  * Creating a new column, Day of the Week
 
-## Data Exploration Phase
 During the data exploration phase we looked into: 
 * count of crime types and identified theft as being the crime with the highest occurence followed by burglary
 * count of location type where crimes occured and identified home/residence as the location of most crimes followed by parking lots/garages
@@ -98,8 +92,7 @@ Our current accuracy score for our best random forest classifier is 0.74. This s
 ## Dashboard 
 The dashboard includes the following technologies: 
 * HTML
-* Python Libraries: matplotlib, 
-* Javascript Libraries: Leaflet, 
+* Interactive navigation bar
 * Tableau interactive visualizations 
 
 We would like to include the following interactive elements to view:
