@@ -90,7 +90,7 @@ Our current accuracy score for our best random forest classifier is 0.74. This s
 * Analyze predictions
 
 ## Dashboard 
-Access Dashboard [here](file:///Users/azusenaarroyo/Desktop/Class_Repo/Capstone_project/project-one/docs/index.html)
+Access Dashboard [here](https://azusenaarroyo.github.io/project-one/)
 
 The dashboard includes the following technologies: 
 * HTML
