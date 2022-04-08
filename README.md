@@ -33,6 +33,9 @@ Below are the features of both datasets that we inner joined on the Census Tract
   * Separating date into days, months, and years and putting time into the hour the crime occurred. 
   * Creating a new column, Day of the Week
 
+![Screen Shot 2022-04-07 at 8 45 51 PM](https://user-images.githubusercontent.com/92702922/162347051-efcc2bef-529b-4a43-b38b-69904b601da5.png)
+
+
 During the data exploration phase we looked into: 
 * count of crime types and identified theft as being the crime with the highest occurence followed by burglary
 * count of location type where crimes occured and identified home/residence as the location of most crimes followed by parking lots/garages
