@@ -116,6 +116,8 @@ Access all visualizations [here](https://public.tableau.com/app/profile/charla.g
 
 ![Screen Shot 2022-04-07 at 9 00 38 PM](https://user-images.githubusercontent.com/92702922/162348643-40894bc5-ff3d-4367-b351-3ff6804448a6.png)
 
+![month and type bar chart](https://github.com/azusenaarroyo/project-one/blob/main/Resources/month%20and%20type%20(bar%20chart).png)
+
 ## Dashboard 
 Access Dashboard [here](https://azusenaarroyo.github.io/project-one/)
 
