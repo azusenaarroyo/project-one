@@ -103,13 +103,23 @@ Our current accuracy score for our best random forest classifier is 0.74. This s
 * Look at predictions
 * Analyze predictions
 
+## Tableau Visualizations
+
+![Screen Shot 2022-04-07 at 8 49 22 PM](https://user-images.githubusercontent.com/92702922/162347309-9de57384-16df-497f-8b39-4b26832214ef.png)
+
+![Screen Shot 2022-04-07 at 8 59 27 PM](https://user-images.githubusercontent.com/92702922/162348291-85130062-90b7-4247-a736-5477799df24c.png)
+
+![Screen Shot 2022-04-07 at 9 02 09 PM](https://user-images.githubusercontent.com/92702922/162348545-236b0a82-d665-4f82-9510-46c8f33484fe.png)
+
+![Screen Shot 2022-04-07 at 9 00 38 PM](https://user-images.githubusercontent.com/92702922/162348643-40894bc5-ff3d-4367-b351-3ff6804448a6.png)
+
 ## Dashboard 
 Access Dashboard [here](https://azusenaarroyo.github.io/project-one/)
 
 The dashboard includes the following technologies: 
 * HTML
 * Interactive navigation bar
-* Tableau interactive visualizations 
+* Tableau interactive visualizations
 
 We would like to include the following interactive elements to view:
 * types of crime by zipcode
