@@ -76,8 +76,19 @@ As a result, we changed our model to a random forest classifier model. This fits
 ### Description of how they have trained the model thus far and any additional training that will take place
 So far, our random forest is using 1000 estimators. The model was trained using by using a StandardScaler instance for our features, and we analyzed the key differences when fitting the model with Austin Crime data alone and when merged with the Census Tract socioeconoomic data. We found that the accuracy for our model was improved using the Austin Crime data alone; when removing the socioeconomic features (unemployment, educational attainment, etc.), the predicitive accuracy of our model increases, suggesting that these socioeconomic factors are not very indicative for predicting crime type. We also looked at training the data with and without grouping some of the target categories, but seemed to not affect the predictive accuracy of our model. 
 
+![Screen Shot 2022-04-07 at 8 30 57 PM](https://user-images.githubusercontent.com/92702922/162346548-623fae70-2c5d-4cfb-85a3-3b8fdb7f6102.png)
+
+![Screen Shot 2022-04-07 at 8 30 45 PM](https://user-images.githubusercontent.com/92702922/162346581-5666ae87-d75d-44ff-b632-53264e311ab3.png)
+
+
 ### Description of current accuracy score
 Our current accuracy score for our best random forest classifier is 0.74. This seems to suggest fairly high accuracy and the further metrics of the classification report do not seem to indicate overfitting. We also used Optuna for hyperparameter tuning; more specifically, to maximize our macro F1 and/or weighted F1 score, which currently score a 0.45 and 0.69 respectively. Given that our Austin Crime data alone has about 260,000 rows of data and 17 features, it seems to be faily reliable, but given class imbalances, we might benefit from maximizing the F1 scores with Optuna. By updating the number of trials and trees, we were able to increase our weighted F1 score to 0.70.
+
+![Screen Shot 2022-04-07 at 8 31 19 PM](https://user-images.githubusercontent.com/92702922/162346678-6b924acd-7552-423d-a825-475c5c2d27dc.png)
+
+
+![Screen Shot 2022-04-07 at 8 31 32 PM](https://user-images.githubusercontent.com/92702922/162346494-bbf0feef-651b-4d7d-a76a-da2550fbfc9d.png)
+
 
 ## Future Steps
 * Use SQLAlchemy to pull data into the database
