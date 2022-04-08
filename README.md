@@ -35,6 +35,8 @@ Below are the features of both datasets that we inner joined on the Census Tract
 
 ![Screen Shot 2022-04-07 at 8 45 51 PM](https://user-images.githubusercontent.com/92702922/162347051-efcc2bef-529b-4a43-b38b-69904b601da5.png)
 
+![Screen Shot 2022-04-07 at 9 19 01 PM](https://user-images.githubusercontent.com/92702922/162350307-46d5f0b8-802b-4172-8292-86125966b227.png)
+
 
 During the data exploration phase we looked into: 
 * count of crime types and identified theft as being the crime with the highest occurence followed by burglary
