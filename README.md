@@ -106,6 +106,7 @@ Our current accuracy score for our best random forest classifier is 0.74. This s
 * Analyze predictions
 
 ## Tableau Visualizations
+Access all visualizations [here](https://public.tableau.com/app/profile/charla.garcia#!/?newProfile=&activeTab=0)
 
 ![Screen Shot 2022-04-07 at 8 49 22 PM](https://user-images.githubusercontent.com/92702922/162347309-9de57384-16df-497f-8b39-4b26832214ef.png)
 
