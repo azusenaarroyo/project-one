@@ -118,6 +118,8 @@ Access all visualizations [here](https://public.tableau.com/app/profile/charla.g
 
 ![month and type bar chart](https://github.com/azusenaarroyo/project-one/blob/main/Resources/month%20and%20type%20(bar%20chart).png)
 
+![census map](https://github.com/azusenaarroyo/project-one/blob/main/Resources/census%20map.png)
+
 ## Dashboard 
 Access Dashboard [here](https://azusenaarroyo.github.io/project-one/)
 
